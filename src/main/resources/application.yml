@@ -1,0 +1,12 @@
+onelogin:
+  metadata-path: classpath:onelogin/onelogin_metadata_897921.xml
+  sp:
+    protocol: http
+    host: localhost:8080
+    path: /
+    key-store:
+      file: classpath:onelogin/keystore.jks
+      alias: onelogin
+      password: secret
+
+
